@@ -1,9 +1,20 @@
 .menu{
-    border-width:1px;
+    border-width:10px;
     list-style:none;
-    margin: 10px;;
     padding:10px;
+    width: 1300px;
+    height: 10px;
     text-align:right;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0px 3px 18px -1px rgba(153, 139, 139, 0.75);
+    -webkit-box-shadow: 0px 3px 18px -1px rgba(153, 139, 139, 0.75);
+    -moz-box-shadow: 0px 3px 18px -1px rgba(153, 139, 139, 0.75);
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
 }
 .menu li{
     display:inline;
@@ -19,6 +30,7 @@
 	padding: 10px;
 	font-size: 11pt;
 	margin-bottom: 30px;
+    
 }
 .tombol_login{
 	background: #46de4b;
@@ -54,13 +66,16 @@ h1{
 }
   body {
     background-color: #f6f7fc;
-    padding-top: 40px;
+    padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 0px;
 }
 
-.container {
+.container{
     display: flex;
+    height: 120%;
+    float: top;
     width: 100%;
     box-sizing: border-box;
     background-color: white;
@@ -72,6 +87,29 @@ h1{
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 50px;
+}
+.isidata{
+    margin:10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0px 3px 18px -1px rgba(153, 139, 139, 0.75);
+    -webkit-box-shadow: 0px 3px 18px -1px rgba(153, 139, 139, 0.75);
+    -moz-box-shadow: 0px 3px 18px -1px rgba(153, 139, 139, 0.75);
+    border-radius: 4px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.isiform{
+    border-width:10px;
+    list-style:none;
+    padding:10px;
+    width: 1300px;
+    height: 10px;
+    text-align:right;
 }
 .circle {
     width: 100px;
@@ -88,6 +126,7 @@ h1{
     display: flex;
     flex: 4;
 }
+ 
 @media (max-width: 576px) {
     .container {
         flex-direction: column;
