@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 #navigation {
 	margin:0;
 	padding: 0;
@@ -14,15 +15,40 @@ h1{
 	text-align: center;
 	color: white;
 	color: #fff;
-    font-family: 'Monoton', cursive;
+	font-family: 'Kaushan Script', cursive;
     text-transform: uppercase;
     text-align: center;
     margin: 0 auto;
     display: block;
     position: relative;
 }
-.h6{
-	color: blue;
+p		{
+  color: white;
+  font-family:'Kaushan'
+
+}
+.portfolio-image {
+    width: 200px;
+    margin: auto;
+}#about, #portfolio, #blog {
+    padding: 40px;
+}
+.card {
+    margin: auto;
+}
+.title {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.about-image {
+    width: 250px;
+	padding-left: 50px;
+}
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 .footer {
 	position: fixed;
@@ -33,25 +59,20 @@ h1{
 	color: white;
 	text-align: center;
 	
- }
+}
 ul.nav-main,
 ul.nav-main li {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-
-
 ul.nav-main {
 	position: relative;
 	z-index: 597;
 }
-
 ul.nav-main li:hover > ul {
 	visibility: visible;
 }
-
-
 ul.nav-main li.hover,
 ul.nav-main li:hover {
 	position: relative;
@@ -59,9 +80,10 @@ ul.nav-main li:hover {
 	cursor: pointer;
 	background: url(images/dropdown-bg-hover.gif) repeat-x left top;
 }
-
-
-
+.portfolio-image {
+    width: 200px;
+    margin: auto;
+}
 ul.nav-main li {
 	float:left;
 	display:block;
@@ -70,7 +92,6 @@ ul.nav-main li {
 	font: 14px Arial, Helvetica, sans-serif;
 	background: url(images/separator.gif) no-repeat right center;
 }
-
 ul.nav-main li a {
 	display:block;
 	padding: 16px 16px 0 16px;
@@ -79,5 +100,8 @@ ul.nav-main li a {
 	font: 14px Arial, Helvetica, sans-serif;
 	text-decoration:none;
 }
-
-
+@media (max-width: 768px) {
+    .banner-text {
+        font-size: 24px;
+    }
+}
