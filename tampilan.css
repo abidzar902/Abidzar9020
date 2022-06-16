@@ -1,78 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 #navigation {
-	margin:0;
+	margin: 0;
 	padding: 0;
-	clear:both;
-	height:51px;
+	clear: both;
+	height: 51px;
 }
 
 body {
-	background-image: url("images/background.jpg");
 	background-repeat: no-repeat;
-	background-size:cover
+	background-size: cover
 }
-h1{
+
+h1 {
 	text-align: center;
 	color: white;
 	color: #fff;
 	font-family: 'Kaushan Script', cursive;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    position: relative;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	position: relative;
 }
-p		{
-  color: white;
-  font-family:'Kaushan'
+
+p {
+	color: white;
+	font-family: 'Kaushan';
+	text-align: center;
 
 }
+
 .portfolio-image {
-    width: 200px;
-    margin: auto;
-}#about, #portfolio, #blog {
-    padding: 40px;
+	width: 200px;
+	margin: auto;
 }
+
+#about,
+#portfolio,
+#blog {
+	padding: 40px;
+}
+
 .card {
-    margin: auto;
+	margin: auto;
 }
+
 .title {
-    font-family: 'Kaushan Script', cursive;
-    text-align: center;
-    margin-bottom: 70px;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	margin-bottom: 70px;
 }
+
 .about-image {
-    width: 250px;
+	width: 250px;
 	padding-left: 50px;
 }
+
 .circle {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
 }
+
 .footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color:black;
+	background-color: black;
 	color: white;
 	text-align: center;
-	
+
 }
+
 ul.nav-main,
 ul.nav-main li {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
+
 ul.nav-main {
 	position: relative;
 	z-index: 597;
 }
-ul.nav-main li:hover > ul {
+
+ul.nav-main li:hover>ul {
 	visibility: visible;
 }
+
 ul.nav-main li.hover,
 ul.nav-main li:hover {
 	position: relative;
@@ -80,28 +97,32 @@ ul.nav-main li:hover {
 	cursor: pointer;
 	background: url(images/dropdown-bg-hover.gif) repeat-x left top;
 }
+
 .portfolio-image {
-    width: 200px;
-    margin: auto;
+	width: 200px;
+	margin: auto;
 }
+
 ul.nav-main li {
-	float:left;
-	display:block;
+	float: left;
+	display: block;
 	height: 51px;
 	color: #999;
 	font: 14px Arial, Helvetica, sans-serif;
 	background: url(images/separator.gif) no-repeat right center;
 }
+
 ul.nav-main li a {
-	display:block;
+	display: block;
 	padding: 16px 16px 0 16px;
 	height: 35px;
-	color:white;
+	color: white;
 	font: 14px Arial, Helvetica, sans-serif;
-	text-decoration:none;
+	text-decoration: none;
 }
+
 @media (max-width: 768px) {
-    .banner-text {
-        font-size: 24px;
-    }
+	.banner-text {
+		font-size: 24px;
+	}
 }
