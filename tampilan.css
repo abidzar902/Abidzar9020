@@ -10,6 +10,12 @@
 body {
 	margin: 0;
 }
+.card-title{
+	text-align:auto;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 14px;
+
+}
 
 #latar {
 	background-position: center;
@@ -38,9 +44,11 @@ body {
 h1 {
 	font-size: 40px;
 	color: #009900;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h3 {
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 24px;
 	color: whitesmoke;
 }
@@ -75,8 +83,8 @@ h1 {
 	text-align: center;
 	color: white;
 	color: #fff;
-	font-family: 'Kaushan Script', cursive;
-	text-transform: uppercase;
+	
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;text-transform: uppercase;
 	text-align: center;
 	margin: 0 auto;
 	display: block;
@@ -85,13 +93,17 @@ h1 {
 
 p {
 	color: white;
-	font-family: 'Kaushan';
 	text-align: center;
 
 }
 
 .portfolio-image {
 	width: 200px;
+	margin: auto;
+}
+.team-image {
+	width: 200px;
+	height: 200px;
 	margin: auto;
 }
 
@@ -106,7 +118,7 @@ p {
 }
 
 .title {
-	font-family: 'Kaushan Script', cursive;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	text-align: center;
 	margin-bottom: 70px;
 }
@@ -158,12 +170,6 @@ ul.nav-main li:hover {
 	cursor: pointer;
 	background: url(images/dropdown-bg-hover.gif) repeat-x left top;
 }
-
-.portfolio-image {
-	width: 200px;
-	margin: auto;
-}
-
 ul.nav-main li {
 	float: left;
 	display: block;
@@ -181,6 +187,77 @@ ul.nav-main li a {
 	font: 14px Arial, Helvetica, sans-serif;
 	text-decoration: none;
 }
+/* Pengaturan Tampilan Pada Form */
+
+/* Atur Ukuran Konten Pada Elemen Div (serta jenis font-nya) */
+div#main{
+	width:830px;
+	height:650px;
+	margin:0 auto;
+	font-family:'Segoe UI',sans-serif
+	}
+	
+	/* Atur Posisi, Ukuran, Serta Tampilan Pada Form */
+	div#form{
+	text-align:center;
+	border:1px solid #ccc;
+	width:300px;
+	padding:0 50px 15px;
+	margin-top:20px;
+	box-shadow:0 0 15px;
+	border-radius:6px;
+	float:left
+	}
+	
+	/* Atur Heading */
+	#main h1{
+	margin-top:40px
+	}
+	
+	/* Atur Heading Line */
+	hr{
+	margin-top:-5px
+	}
+	
+	/* Atur Label */
+	label{
+	float:left;
+	font-size:16px
+	}
+	
+	/* Atur Kolom Input Untuk Subyek Text */
+	input[type="text"]{
+	width:100%;
+	margin-top:10px;
+	height:35px;
+	margin-bottom:25px;
+	padding:10px;
+	border:3px solid #2BC1F2
+	}
+	
+	/* Atur Kolom Textarea */
+	textarea{
+	width:100%;
+	border:3px solid #2BC1F2;
+	padding:10px;
+	margin-bottom:25px;
+	margin-top:10px;
+	height:100px;
+	resize:none
+	}
+	
+	/* Atur Kolom Submit */
+	input[type="submit"]{
+	width:100%;
+	padding:10px 45px;
+	background-color:#2BC1F2;
+	border:none;
+	color:#fff;
+	font-size:18px;
+	font-weight:700;
+	cursor:pointer;
+	font-family:'Segoe UI',sans-serif
+	}
 
 @media (max-width: 768px) {
 	.banner-text {
