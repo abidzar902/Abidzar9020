@@ -34,43 +34,46 @@
       html {
         box-sizing: border-box;
       }
-      
-      *, *:before, *:after {
+
+      *,
+      *:before,
+      *:after {
         box-sizing: inherit;
       }
-      
+
       .column {
         float: left;
         width: 33.3%;
         margin-bottom: 16px;
         padding: 0 8px;
       }
-      
+
       @media screen and (max-width: 650px) {
         .column {
           width: 100%;
           display: block;
         }
       }
-      
+
       .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       }
-      
+
       .container {
         padding: 0 16px;
       }
-      
-      .container::after, .row::after {
+
+      .container::after,
+      .row::after {
         content: "";
         clear: both;
         display: table;
       }
-      
+
       .title {
         color: grey;
       }
-      
+
       .button {
         border: none;
         outline: 0;
@@ -82,50 +85,52 @@
         cursor: pointer;
         width: 100%;
       }
-      
+
       .button:hover {
         background-color: #555;
       }
-      </style>
-      </head>
-      <body></body>
-        <div class="column">
-          <div class="card">
-            <img src="images/team1.jpg" class="card-img-top" alt="deku" style="width:100%">
-            <div class="container">
-              <h2>Deku Si Pahlawan</h2>
-              <p class="title">Sebagai Tim Hura-Hura</p>
-              <p>Sebagai tim hura-hura pendukung</p>
-              <p><button class="button">Contact</button></p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="column">
-          <div class="card">
-            <img src="images/team2.jpg" class="card-img-top" alt="sasuke" style="width:100%">
-            <div class="container">
-              <h2>Sasuke Si Pengkianat</h2>
-              <p class="title">Sebagai Tim Pembocor</p>
-              <p>Sebagai tim hura-hura pendukung</p>
-              <p><button class="button">Contact</button></p>
-            </div>
-          </div>
-        </div>
+    </style>
+    </head>
 
-        <div class="column">
-          <div class="card">
-            <img src="images/team.jpg" class="card-img-top" alt="lufi" style="width:100%">
-            <div class="container">
-              <h2>Luffi Si Pemberani</h2>
-              <p class="title">Sebagai Tim Keonaran</p>
-              <p>Sebagai tim hura-hura pendukung</p>
-              <p><button class="button">Contact</button></p>
-            </div>
-          </div>
+    <body></body>
+    <div class="column">
+      <div class="card">
+        <img src="images/team1.jpg" class="card-img-top" alt="deku" style="width:100%">
+        <div class="container">
+          <h2>Deku Si Pahlawan</h2>
+          <p class="title">Sebagai Tim Hura-Hura</p>
+          <p>Sebagai tim hura-hura pendukung</p>
+          <p><button class="button">Contact</button></p>
         </div>
-        
-      </div>  </ul>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/team2.jpg" class="card-img-top" alt="sasuke" style="width:100%">
+        <div class="container">
+          <h2>Sasuke Si Pengkianat</h2>
+          <p class="title">Sebagai Tim Pembocor</p>
+          <p>Sebagai tim hura-hura pendukung</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/team.jpg" class="card-img-top" alt="lufi" style="width:100%">
+        <div class="container">
+          <h2>Luffi Si Pemberani</h2>
+          <p class="title">Sebagai Tim Keonaran</p>
+          <p>Sebagai tim hura-hura pendukung</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </ul>
   <div class="footer">
     <hr color="white">
     <p>Copyright Abidzar-Kun 2022</p>
